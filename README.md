@@ -1,3 +1,3 @@
 # QTchat
 
-Print login and pass "admin" to open admin's monitor.
+Admin's monitor should open after first user logen in.
