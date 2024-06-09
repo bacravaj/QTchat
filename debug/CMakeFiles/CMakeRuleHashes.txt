@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+c521ab9ef1da95895d32bc8339979d9a CMakeFiles/Chat_autogen
+03878a671b6325a4483d0b3bda338117 ui_adminstool.h
+d300d9f6021495491d280a05e15f48f2 ui_loginform.h
+4d12f89aa8a8869046b90e04789c8bfe ui_mainwindow.h
+7bf1861148bff1964e6b6d558121745a ui_registrationform.h
+20f7bd589b69ed8821fcba860380eb84 ui_startscreen.h

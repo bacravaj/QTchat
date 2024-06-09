@@ -1,0 +1,4 @@
+D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/CMakeFiles/Chat.dir
+D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/CMakeFiles/edit_cache.dir
+D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/CMakeFiles/rebuild_cache.dir
+D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/CMakeFiles/Chat_autogen.dir

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chat"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Qt\;CMake Files\Qt\Qt5.14.2\;CMake Files\Qt\Qt5.14.2\5.14.2\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\;CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5LinguistTools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chat">
+				<Option output="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Chat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+					<Add directory="D:/cpp/final/CPLUS-UI-ChatCPPTest-main"/>
+					<Add directory="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Chat_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 Chat"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chat/fast">
+				<Option output="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Chat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+					<Add directory="D:/cpp/final/CPLUS-UI-ChatCPPTest-main"/>
+					<Add directory="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Chat_autogen/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 Chat/fast"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chat_autogen">
+				<Option working_dir="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 Chat_autogen"/>
+					<CompileFile command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.14.2/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/debug/Chat_autogen/mocs_compilation.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/CommandLineInterface.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/CommandLineInterface.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/Database.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/Database.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/Message.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/Message.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/Parsing.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/Parsing.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/Test.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/User.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/User.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/adminstool.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/adminstool.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/adminstool.ui">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/dbsimulation.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/dbsimulation.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/loginform.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/loginform.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/loginform.ui">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/mainwindow.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/mainwindow.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/mainwindow.ui">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/registrationform.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/registrationform.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/registrationform.ui">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/sha1.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/sha1.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/startscreen.cpp">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/startscreen.h">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/sources/startscreen.ui">
+			<Option target="Chat"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="D:/cpp/final/CPLUS-UI-ChatCPPTest-main/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\mingw73_64\lib\cmake\Qt5LinguistTools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
